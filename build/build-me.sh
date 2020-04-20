@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TMPSRC=".."
-TMPOPTS=""
+TMPOPTS="-DCMAKE_INSTALL_PREFIX=$HOME -DCMAKE_BUILD_TYPE=Release"
 
 cmake $TMPSRC $TMPOPTS
 if [ ! "$?" = "0" ]; then
