@@ -4,4 +4,12 @@ Makefile
 cmake_install.cmake
 install_manifest.txt
 showenv
+*.vcxproj
+*.filters
+Debug/*
+Release/*
+bldlog-1.txt
+*.dir/*
+*.sln
+x64/*
 
